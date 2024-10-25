@@ -13,15 +13,15 @@ function Show() {
     <>
     <div>
       <h1 className='text-4xl mt-10 mb-10'>This is Hide & Show Section</h1>
-      <button onClick={()=>setshowexp(!showexp)} className='border-b-2 bg-gray-950 text-blue-50 p-1.5 rounded-ful active:bg-blue-600'>Experience</button>
+      <button onClick={()=>setshowexp(!showexp)} className='border-b-2 bg-gray-950 text-blue-50 p-1.5 rounded-2xl pb-0 pt-0 active:bg-blue-600'>Experience</button>
       {showexp && <Experience/>}
       </div>
       <div>
-      <button onClick={()=>setshowedu(!showedu)} className='border-b-2 bg-gray-950 text-blue-50 p-1.5 rounded-ful active:bg-blue-600'>Education</button>
+      <button onClick={()=>setshowedu(!showedu)} className='border-b-2 bg-gray-950 text-blue-50 p-1.5 rounded-2xl pb-0 pt-0 active:bg-blue-600'>Education</button>
       {showedu && <Education/>}
     </div>
     <div>
-      <button onClick={()=>setshowHome(!showHome)} className='border-b-2 bg-gray-950 text-blue-50 p-1.5 rounded-ful active:bg-blue-600'>Home</button>
+      <button onClick={()=>setshowHome(!showHome)} className='border-b-2 bg-gray-950 text-blue-50 p-1.5 rounded-2xl pb-0 pt-0 active:bg-blue-600'>Home</button>
       {showHome && <Home/>}
     </div>
     </>
